@@ -13,12 +13,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     InputAction moveDown = new InputAction(type: InputActionType.Button);
 
-    [SerializeField][Tooltip("Move the player to the location of 'moveToLocation'")]
+    [SerializeField]
     InputAction moveLeft = new InputAction(type: InputActionType.Button);
 
     [SerializeField]
     InputAction moveRight = new InputAction(type: InputActionType.Button);
-    // Start is called before the first frame update
 
     // Update is called once per frame
 
